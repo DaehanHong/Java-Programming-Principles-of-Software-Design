@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MarkovWordOne
+comment1.params=
+comment1.target=MarkovWordOne()
+comment2.params=seed
+comment2.target=void\ setRandom(int)
+comment3.params=text
+comment3.target=void\ setTraining(java.lang.String)
+comment4.params=numWords
+comment4.target=java.lang.String\ getRandomText(int)
+comment5.params=key
+comment5.target=java.util.ArrayList\ getFollows(java.lang.String)
+comment5.text=\r\n\ Returns\ an\ ArrayList\ of\ all\ the\ single\ words\ that\ immediately\ follow\ the\ key\ \r\n\ in\ the\ training\ text.\r\n
+comment6.params=words\ target\ start
+comment6.target=int\ indexOf(java.lang.String[],\ java.lang.String,\ int)
+comment6.text=\r\n\ Looks\ at\ the\ start\ position\ and\ returns\ the\ first\ index\ location\ in\ words\ that\r\n\ matches\ target.\ If\ no\ word\ is\ found,\ then\ returns\ -1.\r\n
+comment7.params=
+comment7.target=void\ testIndexOf()
+numComments=8
